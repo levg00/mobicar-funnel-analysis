@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="70" viewBox="0 0 760 70" role="img" aria-labelledby="title">
+  <title id="title">Мой вклад: анализ на Python, визуализация, продуктовые гипотезы</title>
+  <rect width="760" height="70" rx="10" fill="#142c43"/>
+  <path d="M10 0H5a5 5 0 0 0-5 5v60a5 5 0 0 0 5 5h5" fill="#58a6ff"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="24" y="26" fill="#8cc8ff" font-size="13" font-weight="700" letter-spacing="1">МОЙ ВКЛАД</text>
+    <text x="24" y="52" fill="#ffffff" font-size="18" font-weight="700">Анализ на Python</text>
+    <text x="220" y="52" fill="#58a6ff" font-size="18">·</text>
+    <text x="239" y="52" fill="#ffffff" font-size="18" font-weight="700">Визуализация</text>
+    <text x="401" y="52" fill="#58a6ff" font-size="18">·</text>
+    <text x="420" y="52" fill="#ffffff" font-size="18" font-weight="700">Продуктовые гипотезы</text>
+  </g>
+</svg>
