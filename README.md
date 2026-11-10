@@ -30,7 +30,7 @@ Use eight weeks of data to identify the funnel stage where conversion fell, show
 
 **Registration-to-search conversion dropped by 21.60 percentage points between weeks six and seven.** This stage should be investigated first.
 
-[![Conversion trends over eight weeks: a drop between registration and search](assets/funnel.ru.png)](notebooks/funnel-analysis.ipynb)
+[![Conversion trends over eight weeks: a drop between registration and search](assets/funnel.en.png)](notebooks/funnel-analysis.ipynb)
 
 | Metric | Week 6 | Week 7 | Change |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ notebooks/funnel-analysis.ipynb   — code and calculations
 data/funnel-daily.csv             — daily data
 data/funnel-data.xlsx             — the same data in Excel
 data/README.md                    — data provenance
-assets/funnel.ru.png              — conversion chart
+assets/funnel.en.png              — conversion chart
 materials/task.ru.md              — case brief
 materials/report.ru.pdf           — original chart and findings
 materials/original-analysis.ipynb — original notebook
