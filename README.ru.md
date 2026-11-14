@@ -64,7 +64,7 @@
 <summary><b>📁 Какие данные использованы</b></summary>
 
 - **56 дней, восемь недель:** установки, регистрации, поиск, просмотр авто, бронирования и первые поездки.
-- **CSV и Excel:** одинаковые данные, восстановленные из сохранённого блока чисел. Расчёты совпали с исходным notebook. [Подробнее о данных](data/README.md).
+- **CSV и Excel:** одинаковые данные, восстановленные из сохранённого блока чисел. Расчёты совпали с исходным notebook. [Подробнее о данных](data/README.ru.md).
 
 </details>
 
@@ -84,7 +84,7 @@ README.ru.md                     — описание на русском
 notebooks/funnel-analysis.ipynb   — код и расчёты
 data/funnel-daily.csv             — дневные данные
 data/funnel-data.xlsx             — те же данные в Excel
-data/README.md                    — происхождение данных
+data/README.ru.md                 — происхождение данных
 assets/funnel.ru.png              — график конверсий
 materials/task.ru.md              — условие кейса
 materials/report.ru.pdf           — исходный график и выводы

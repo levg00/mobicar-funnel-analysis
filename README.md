@@ -10,7 +10,7 @@ Analysis of the customer journey from app installation to the first ride, identi
 
 Case study completed as part of the selection process for an internship at **T-Bank**.
 
-#### 📓 [Code and calculations](notebooks/funnel-analysis.ipynb) · 📄 [Solution](materials/report.ru.pdf)
+#### 📓 [Code and calculations](notebooks/funnel-analysis.en.ipynb) · 📄 [Solution](materials/report.en.pdf)
 
 ## 🎯 Task
 
@@ -18,7 +18,7 @@ Use eight weeks of data to identify the funnel stage where conversion fell, show
 
 **Case context:** car search changed, while installations increased. The share of registered users returning to the app a week later remained unchanged; reviews did not worsen.
 
-📋 [Full case brief](materials/task.ru.md)
+📋 [Full case brief](materials/task.en.md)
 
 ## ⚡ What I did and tools used
 
@@ -30,7 +30,7 @@ Use eight weeks of data to identify the funnel stage where conversion fell, show
 
 **Registration-to-search conversion dropped by 21.60 percentage points between weeks six and seven.** This stage should be investigated first.
 
-[![Conversion trends over eight weeks: a drop between registration and search](assets/funnel.en.png)](notebooks/funnel-analysis.ipynb)
+[![Conversion trends over eight weeks: a drop between registration and search](assets/funnel.en.png)](notebooks/funnel-analysis.en.ipynb)
 
 | Metric | Week 6 | Week 7 | Change |
 | :--- | :--- | :--- | :--- |
@@ -56,7 +56,7 @@ Additionally, an **A/B test** to evaluate the impact of the search changes.
 
 For the chart, I averaged daily rates within each week.
 
-**Additional check:** recalculating rates using total weekly user counts also showed a drop at the search transition. The [notebook](notebooks/funnel-analysis.ipynb) compares the two methods.
+**Additional check:** recalculating rates using total weekly user counts also showed a drop at the search transition. The [notebook](notebooks/funnel-analysis.en.ipynb) compares the two methods.
 
 </details>
 
@@ -70,9 +70,9 @@ For the chart, I averaged daily rates within each week.
 
 ## 📂 Materials
 
-- [Code, calculations, and chart — Jupyter Notebook](notebooks/funnel-analysis.ipynb).
-- [Chart and findings on one page — PDF](materials/report.ru.pdf).
-- [Case brief](materials/task.ru.md).
+- [Code, calculations, and chart — Jupyter Notebook](notebooks/funnel-analysis.en.ipynb).
+- [Chart and findings on one page — PDF](materials/report.en.pdf).
+- [Case brief](materials/task.en.md).
 - [CSV data](data/funnel-daily.csv) · [Excel data](data/funnel-data.xlsx).
 
 <details>
@@ -81,14 +81,15 @@ For the chart, I averaged daily rates within each week.
 ```text
 README.md                        — description in English
 README.ru.md                     — description in Russian
-notebooks/funnel-analysis.ipynb   — code and calculations
+notebooks/funnel-analysis.en.ipynb   — code and calculations
 data/funnel-daily.csv             — daily data
 data/funnel-data.xlsx             — the same data in Excel
-data/README.md                    — data provenance
+data/README.md                    — data description in English
+data/README.ru.md                 — data description in Russian
 assets/funnel.en.png              — conversion chart
-materials/task.ru.md              — case brief
-materials/report.ru.pdf           — original chart and findings
-materials/original-analysis.ipynb — original notebook
+materials/task.en.md              — case brief
+materials/report.en.pdf           — chart and findings in English
+materials/original-analysis.ipynb — original notebook in Russian
 requirements.txt                 — dependencies
 ```
 
