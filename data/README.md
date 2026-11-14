@@ -1,9 +1,22 @@
-# Данные МобиКар
+# MobiCar data
 
-`funnel-daily.csv` и `funnel-data.xlsx` содержат одинаковые данные: 56 дней с 6 января по 2 марта 2025 года, восемь колонок.
+[↩ Project](../README.md) · [Русский](README.ru.md)
 
-Таблица восстановлена из предоставленного блока Python `data = {...}`. Исходный бинарный Excel не найден. Проверка показала совпадение всех 48 средних дневных конверсий с сохранённым выводом исходного notebook до шести знаков после запятой. Это подтверждает воспроизводимость сохранённых результатов на предоставленном наборе, но не доказывает идентичность каждой строки утраченному Excel.
+`funnel-daily.csv` and `funnel-data.xlsx` contain identical data: 56 days from 6 January to 2 March 2025 and eight columns.
 
-Числа и даты из предоставленного блока сохранены. Пропусков, повторов дат и нарушений порядка этапов воронки не обнаружено.
+The table was restored from the supplied Python block `data = {...}`. The original Excel file was not available. All 48 weekly averages of daily conversion rates match the saved output of the original notebook to six decimal places.
 
-Контекст про установки, удержание, изменения поиска и отзывы приведён в `materials/task.ru.md` как вводные задания, а не как дополнительные колонки таблицы.
+The supplied numbers and dates were preserved. Checks found no missing values, duplicate dates or violations of the order of funnel stages.
+
+| Original column | Meaning |
+| :--- | :--- |
+| `Дата` | Observation date |
+| `Неделя` | Week 1-8 |
+| `Установки` | App installations |
+| `Регистрации` | Registrations |
+| `Открыли поиск` | Users who opened car search |
+| `Просмотрели авто` | Users who viewed a car |
+| `Забронировали` | Users who booked a car |
+| `Первая поездка` | Users who completed their first ride |
+
+The English notebook renames these columns after loading the shared source data. Installation growth, retention, search changes and reviews are context supplied in the [case brief](../materials/task.en.md).
